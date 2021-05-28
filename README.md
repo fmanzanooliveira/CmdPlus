@@ -1,0 +1,6 @@
+# CmdPlus
+O projeto surgiu da necessidade de uma interface mais responsiva e com mais recursos do que a tradicional linha de comando dos aplicativos console. Utilizando os recursos de programação assincrona do C#, a biblioteca pode ser usada em qualquer aplicação console para conseguir uma interface semelhante as interfaces de configuração de switches de redes, onde o usuario possui uma "linha de comandos" fixa, sempre abaixo de todos os outputs da interface.
+
+A biblioteca conta também com um mecanismo de assistencia a comandos, onde o usuario ao digitar as primeiras letras de um comando, pode usar a tecla TAB para que o aplicativo complete o comando. A aplicação continua sempre responsiva a inserção de caracteres do usuario na linha de comando, fornecendo assim a capacidade de oferecer outputs sobre um processamento que estiver ocorrendo no background da aplicação, possibilitando que o usuario continuando realizando outras funcões na aplicação enquanto aguarda determinado processamento.
+
+Os outputs da biblioteca podem ser utilizados com um método próprio, onde é possivel escolher entre os cinco diferentes tipos de impressão. Cada um conta com uma cor distinta, facilitando a visualização do usuario da aplicação e oferecendo uma melhor experiencia ao usuario.
